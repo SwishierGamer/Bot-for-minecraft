@@ -1,12 +1,12 @@
 const mineflayer = require('mineflayer');
 
 const bot = mineflayer.createBot({
-    host: 'your.minecraftserver.com', // Change this to your server IP
+    host: 'Appl0tree.aternos.me', // Change this to your server IP
     port: 25565, // Default port for Java Edition
-    username: 'YourBotUsername'
+    username: 'JeffTheG'
 });
 
-bot.on('chat', (username, message) => {
+bot.on('chat', (my name is jeff) => {
     if (username === bot.username) return;
     if (message === 'hello') {
         bot.chat(`Hello, ${username}!`);
